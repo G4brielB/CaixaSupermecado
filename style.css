@@ -172,7 +172,7 @@
     justify-content: center;
 }
 
-.finish{
+/*.finish{
     position: absolute;
     display: flex;
 
@@ -187,6 +187,120 @@
     display: flex;
     margin-top: 150px;
     font-size: 1.5em;
+}*/
+
+
+@media (max-width: 600px){
+    .lateral-esquerda{
+        display: flex;
+        background-color: #dac28f;
+        position: fixed;
+        left: 0px;
+        height: 100vh;
+        width: 200px;
+        color: #fff;
+        font: 1,2em;
+        margin-top: 75px;
+    
+    }
+
+    .btn{
+        border: none;
+        margin: 5px;
+        width: 190px;
+        height: 50px;
+        border-radius: 30px;
+        font-size: 1.2em;
+    
+    }
+
+    .cabecalho-produto{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        font-size: 1.2em;
+        background-color: #dddddd;
+        margin: 75px 0px 2px 201px;
+    }
+
+    .display-produto{
+        display: flex;
+        justify-content: flex-start;
+        margin: 2px 20px 2px 209px;
+        padding: 5px 0px;
+        font-size: 1.2em;
+        
+    }
+
+    .vlr-total{
+        display: flex;
+        position: absolute;
+        left: 20px;
+        top: 5px;
+        font-size: 1.4em;
+        
+    }
+
+
+    
+
+    .rodape input {
+        display: flex;
+        margin: 2px;
+        border: solid 2px #86754e;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .nome-produto {
+        width: 200px;
+        padding: 5px 0px 5px 0px;
+    }
+    
+    .quantidade-produto{
+        width: 90px;
+    }
+    
+    .valor-produto{
+        width: 90px;
+        
+    }
+
+    
+
+
+}
+
+@media (max-width: 999px) {
+    .nome-produto {
+        width: 200px;
+        padding: 5px 0px 5px 0px;
+    }
+    
+    .quantidade-produto{
+        width: 90px;
+    }
+    
+    .valor-produto{
+        width: 90px;
+        
+    }
+}
+
+@media (max-width: 711px) {
+    .nome-produto {
+        width: 150px;
+        padding: 5px 0px 5px 0px;
+    }
+    
+    .quantidade-produto{
+        width: 50px;
+    }
+    
+    .valor-produto{
+        width: 60px;
+        
+    }
 }
 
 /* aprimorar animação e otimizar gambiarras */
