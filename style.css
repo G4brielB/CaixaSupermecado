@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex;
+    background-color: #a4af3d;
+    padding: 20px;
+    color: #FFF;
+    font-size: 30px;
+    position: fixed;
+    width: 100%;
+
+
+}
+
+.container-produtos{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 73px;
+    
+}
+
+.cabecalho-produto{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 1.2em;
+    background-color: #dddddd;
+    margin: 75px 0px 2px 301px;
+}
+
+.cabecalho-produto p:nth-child(1){
+    flex-grow: 2;
+    
+}
+
+.cabecalho-produto p:nth-child(2){
+    flex-grow: 1;
+    text-align: end;
+}
+
+.cabecalho-produto p:nth-child(3){
+    flex-grow: 2;
+    margin-right: 20px;
+    text-align: end;
+}
+
+.display-produto{
+    display: flex;
+    justify-content: flex-start;
+    margin: 2px 20px 2px 320px;
+    padding: 5px 0px;
+    font-size: 1.2em;
+    
+}
+/* Resolver problema com desalinhamento da quantidade */
+
+.item{
+    display: flex;
+    justify-content: flex-start;
+    width: 150vh;
+}
+
+.quantidade{
+    display: block;
+    width: 100vh;
+    right: 30px;
+
+}
+
+.valor{
+
+    right: 30px;
+    
+}
+
+.display-produto:nth-child(odd){
+    background-color: #dddddd;
+}
+
+.display-produto:nth-child(even){
+    background-color: #ffffff;
+}
+
+
+
+.lateral-esquerda{
+    display: flex;
+    background-color: #dac28f;
+    position: fixed;
+    left: 0px;
+    height: 100vh;
+    width: 300px;
+    color: #fff;
+    font: 1,2em;
+    margin-top: 75px;
+
+}
+
+.aside-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 150px;
+}
+
+.btn{
+    border: none;
+    margin: 5px;
+    width: 290px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 1.2em;
+
+}
+
+.btn:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.rodape {
+    display: flex;
+    padding: 20px;
+    background-color: #ffe3a7;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    justify-content: flex-end;
+}
+
+.rodape input {
+    display: flex;
+    margin: 2px;
+    border: solid 2px #86754e;
+    border-radius: 10px;
+
+}
+
+.vlr-total{
+    display: flex;
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    font-size: 1.4em;
+    
+}
+
+.nome-produto {
+    width: 300px;
+    padding: 5px 0px 5px 0px;
+}
+
+.quantidade-produto{
+    padding: 5px 5px 5px 5px
+}
+
+.valor-produto{
+    padding: 5px 5px 5px 5px;
+    
+}
+
+.btn-submit{
+    padding: 2px 20px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.finish{
+    position: absolute;
+    display: flex;
+
+    align-items: center;
+    height: 100vh;
+
+
+}
+
+
+.section-finish{
+    display: flex;
+    margin-top: 150px;
+    font-size: 1.5em;
+}
+
+/* aprimorar animação e otimizar gambiarras */
+/* Não esquecer da responsividade */

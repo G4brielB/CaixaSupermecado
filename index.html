@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <p>Caixa</p>
+
+    </header>
+
+
+    <aside class="lateral-esquerda">
+        <div class="aside-container"> 
+            
+            <button class="btn" id="clearAll">Limpar Tudo</button>
+            <button class="btn" id="Finish">Finalizar Venda</button> <!-- criar novo html e usar fetch do ajax -->
+            <p>Projeto em andamento</p>
+        </div>
+    </aside>
+
+    <section class="container-produtos" id="displaySection">
+        <header class="cabecalho-produto">
+            <p>Produtos:</p>
+            <p>Quantidade:</p>
+            <p>Valor:</p>
+        </header>
+
+        <div id="inserirItens">
+
+        </div>
+        <!--<div class="display-produto">
+            <p class="item">Produto</p>
+            <p class="quantidade">00</p>
+            <p class="valor">R$: 0,00</p>
+        </div>-->     
+    </section>
+
+    <!-- <div class="finish">
+        <header class="cabecalho center">
+            <h1>finish</h1>
+        </header>
+    
+        <section class="section-finish" id="displaySection">
+    
+                <aside class="aside-finish">
+                    <p>Preço R$: <span id="outputPreco"></span></p>
+                    <p>Dinheiro: <input type="text" placeholder="Valor recebido"></p>
+                </aside>
+    
+                <div id="inserirItens"></div>
+    
+        </section>
+    </div> -->
+
+
+    <!-- aprimorar e arrumar semantica -->
+
+    <footer class="rodape">
+        <div class="vlr-total">
+            <p>Valor Total: R$ <span id="preco">00,00</span></p>
+        </div>
+
+        <label>
+            <input type="text" class="nome-produto" id="nome" placeholder="nome do produto">
+        </label>
+
+        <label>
+            <input type="text" class="quantidade-produto" id="quantidade" placeholder="Qtd">
+        </label>
+
+        <label>
+            <input type="Number" class="valor-produto" id="valor" placeholder="valor">
+        </label>
+        <input type="submit" value="Enviar" id="lancarItem" class="btn-submit">
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
