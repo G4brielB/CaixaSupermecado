@@ -223,6 +223,13 @@
         margin: 75px 0px 2px 201px;
     }
 
+    .aside-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-bottom: 190px;
+    }
+
     .display-produto{
         display: flex;
         justify-content: flex-start;
